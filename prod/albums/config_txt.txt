@@ -1,0 +1,32 @@
+// npm install --save-dev eslint-config-rallycoding
+
+// o comando acima deve ser instalado para cada projeto
+
+
+
+Nuclide.io + ESLINT CONFIG for each project
+
+Hi Stephen,
+
+Is there any alternative way for using Nuclide.io + ESLINT without following below steps for each project
+
+
+For each project:
+
+1) Run the command line
+
+npm install --save-dev eslint-config-rallycoding
+
+2) Create the .eslintrc file in same project directory, with:
+
+2.1) File name:
+
+.eslintrc
+
+2.2) File content:
+
+{
+"extends": "rallycoding"
+}
+
+3) Restart Nuclide
